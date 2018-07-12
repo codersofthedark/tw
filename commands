@@ -1,0 +1,2 @@
+docker build -t app-java:v1.0.0 application/war
+docker run -p 8080:8080 --name app -d app-java:v1.0.0
